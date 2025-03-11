@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contact-container">
+      <h2>Informasi diri</h2>
+      <form action="cv.html" method="get">
+        <div class="form-group">
+          <label for="name">Nama</label>
+          <input
+            type="text"
+            id="Name"
+            name="name"
+            placeholder="Nama Lengkap"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your.email@example.com"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label>Jenis Kelamin</label>
+          <br>
+          <div class="gender-options">
+            <label class="gender-option">
+              <input type="radio" name="gender" value="Pria" required />
+              <span>Pria</span>
+            </label>
+            <label class="gender-option">
+              <input type="radio" name="gender" value="Wanita" required />
+              <span>Wanita</span>
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="hobby">Hobi</label>
+          <input
+            type="text"
+            id="hobby"
+            name="hobby"
+            placeholder="Hobi Kamu"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="Pesan">Pesan</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="1 kalimat"
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </div>
+  </body>
+</html>
